@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>lists</title>
+    <style>
+        .colored li::marker{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p><big><em>Перший список:</em></big></p>
+    <ul type="square">
+        <li><big>Троянди</big></li>
+        <li><big>Гвоздики</big></li>
+        <li><big>Тюльпани</big></li>
+        <li><big>Ромашки</big></li>
+    </ul>
+    <br><br>
+    <p><big><em>Другий список:</em></big></p>
+    <ol>
+        <li><big>Фрукти:</big>
+            <ul type="disc">
+                <li><big>Ананас</big></li>
+                <li><big>Апельсин</big></li>
+                <li><big>Банан</big></li>
+                <li><big>Яблуко</big></li>
+                <li><big>Мандарин</big></li>
+            </ul>
+        </li>
+        <li><big>Овочі:</big>
+            <ol type="a">
+                <li><big>Картопля</big></li>
+                <li><big>Огірок</big></li>
+                <li><big>Буряк</big></li>
+                <li><big>Морква</big></li>
+                <li><big>Баклажани</big></li>
+            </ol>
+        </li>
+        <li><big>Ягоди:</big>
+            <ul type="circle">
+                <li><big>Полоуниця</big></li>
+                <li><big>малина</big></li>
+                <li><big>Смородина</big></li>
+            </ul>
+        </li>
+    </ol>
+    <br><br>
+    <p><big><em>Третій список:</em></big></p>
+    <ol>
+        <li><big>Підприємство 1:</big>
+            <ol>
+                <li><big>Керівник 1</big>
+                    <ol type="i">
+                        <li>Робітник 1</li>
+                        <li>Робітник 2</li>
+                        <li>Робітник 3</li>
+                    </ol>
+                </li>
+                <li><big>Керівник 2</big>
+                    <ul type="disc">
+                        <li>Робітник 1</li>
+                        <li>Робітник 2</li>
+                        <li>Робітник 3</li>
+                    </ul>
+                </li>
+                <li><big>Керівник 3</big>
+                    <ol type="A">
+                        <li>Робітник 1</li>
+                        <li>Робітник 2</li>
+                        <li>Робітник 3</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li><big>Підприємство 2:</big>
+            <ul type="disc">
+                <li><big>Керівник 1</big>
+                    <ol type="A">
+                        <li>Робітник 1</li>
+                        <li>Робітник 2</li>
+                    </ol>
+                </li>
+                <li><big>Керівник 2</big>
+                    <ul type="disc">
+                        <li>Робітник 1</li>
+                        <li>Робітник 2</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ol>
+    <br><br>
+    <p><big><em>Четвертий список:</em></big></p>
+    <ol start="8" type="I">
+        <li>Король Магнум XLIV</li>
+        <li>Король Зигфрид XVI</li>
+        <li>Король Сигизмунд XXI</li>
+        <li>Король Хусбранд I</li>
+    </ol>
+    <br><br>
+    <p><big><em>Пятий список:</em></big></p>
+    <ul class="colored">
+        <li>Елемент 1</li>
+        <li>Елемент 2</li>
+        <li>Елемент 3</li>
+        <li>Елемент 4</li>
+    </ul>
+</body>
+</html>
